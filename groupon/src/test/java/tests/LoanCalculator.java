@@ -13,6 +13,7 @@ import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 
+import common.BaseTest;
 import pageobjects.CalculatorPage;
 import tests.WebDriverInstance;
 
