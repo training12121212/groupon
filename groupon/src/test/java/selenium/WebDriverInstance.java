@@ -15,7 +15,7 @@ public class WebDriverInstance {
 
 	public void setDriver() {
 		System.setProperty("webdriver.chrome.driver",
-				"Z:\\workspace\\Demo\\src\\test\\resources\\driver\\chromedriver.exe");
+				"./src/test/resources/driver/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
@@ -24,7 +24,7 @@ public class WebDriverInstance {
 	
 	public WebDriver browserSetup(WebDriver driver) {	
 		System.setProperty("webdriver.chrome.driver",
-				"Z:\\workspace\\Demo\\src\\test\\resources\\driver\\chromedriver.exe");
+				"./src/test/resources/driver/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.calculator.net/loan-calculator.html");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

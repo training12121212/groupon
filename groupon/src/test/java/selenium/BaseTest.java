@@ -31,8 +31,8 @@ public class BaseTest {
 	@BeforeSuite
 	public void reportInitiliaze() {
 		htmlreport = new ExtentHtmlReporter("./reports/test.html");
-		htmlreport.config().setDocumentTitle("Regression Testing");
-		htmlreport.config().setReportName("Sample");
+		htmlreport.config().setDocumentTitle("Groupon Regression Testing");
+		htmlreport.config().setReportName("[GROUPON]");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlreport);
 		
