@@ -30,7 +30,7 @@ public class BaseTest {
 	
 	@BeforeSuite
 	public void reportInitiliaze() {
-		htmlreport = new ExtentHtmlReporter("./reports/test.html");
+		htmlreport = new ExtentHtmlReporter("./reports/GROUPON_Results.html");
 		htmlreport.config().setDocumentTitle("Groupon Regression Testing");
 		htmlreport.config().setReportName("[GROUPON]");
 		extent = new ExtentReports();
