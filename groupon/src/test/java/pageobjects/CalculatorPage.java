@@ -1,4 +1,4 @@
-package pageObjects;
+package pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import common.ReusableMethods;
-import selenium.WebDriverInstance;
+import tests.WebDriverInstance;
 
 public class CalculatorPage extends ReusableMethods {
 

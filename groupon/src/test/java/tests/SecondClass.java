@@ -1,10 +1,10 @@
-package selenium;
+package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import pageObjects.CalculatorPage;
+import pageobjects.CalculatorPage;
 
 public class SecondClass extends BaseTest {
 	CalculatorPage calculatePage;

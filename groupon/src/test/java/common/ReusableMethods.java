@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 
 import com.aventstack.extentreports.Status;
 
-import selenium.BaseTest;
+import tests.BaseTest;
 
 public class ReusableMethods extends BaseTest {
 	

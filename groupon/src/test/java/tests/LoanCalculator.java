@@ -1,4 +1,4 @@
-package selenium;
+package tests;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,8 +13,8 @@ import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 
-import pageObjects.CalculatorPage;
-import selenium.WebDriverInstance;
+import pageobjects.CalculatorPage;
+import tests.WebDriverInstance;
 
 public class LoanCalculator extends BaseTest {
 	CalculatorPage calculatePage;

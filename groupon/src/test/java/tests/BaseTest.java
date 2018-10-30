@@ -1,4 +1,4 @@
-package selenium;
+package tests;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
