@@ -14,8 +14,8 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.MediaEntityModelProvider;
 
 import common.BaseTest;
+import common.WebDriverInstance;
 import pageobjects.CalculatorPage;
-import tests.WebDriverInstance;
 
 public class LoanCalculator extends BaseTest {
 	CalculatorPage calculatePage;

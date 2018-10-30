@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import common.ReusableMethods;
-import tests.WebDriverInstance;
+import common.WebDriverInstance;
 
 public class CalculatorPage extends ReusableMethods {
 

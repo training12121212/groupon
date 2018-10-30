@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import common.BaseTest;
+import common.WebDriverInstance;
 import pageobjects.CalculatorPage;
 
 public class SecondClass extends BaseTest {
