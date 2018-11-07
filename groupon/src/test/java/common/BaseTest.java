@@ -41,7 +41,7 @@ public class BaseTest {
 	
 	@BeforeMethod
 	public void beforeMethod(Method method){
-		//
+		
 	}
 	
 	@AfterMethod
@@ -50,20 +50,6 @@ public class BaseTest {
 	}
 	
 	
-/*	@BeforeTest
-	public void startApplication() {
-		 wd.setDriver();
-		 driver = wd.getDriver();
-		//driver = WebDriverInstance.getDriver();
-		
-		driver.get("https://www.calculator.net/loan-calculator.html");
-	}*/
-
-/*	@AfterTest
-	public void testDown() {
-		driver.quit();
-		System.out.println("Browser closed");
-	}*/
 
 	public void captureScreenshot(ExtentTest logger,WebDriver driver,String name) throws IOException{
 		//Shutterbug.shootPage(driver).withName(name).save("Z:\\workspace\\Demo\\reports");
