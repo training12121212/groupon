@@ -53,7 +53,7 @@ public class BaseTest {
 
 	public void captureScreenshot(ExtentTest logger,WebDriver driver,String name) throws IOException{
 		Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS, 100, true).withName(name).save("./reports");
-	    logger.addScreenCaptureFromPath("./reports/"+name+".png");
+	    logger.addScreenCaptureFromPath(System.getProperty("user.dir")+"/reports/"+name+".png");
 	
 	}
 	
