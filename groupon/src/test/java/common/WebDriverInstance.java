@@ -16,7 +16,7 @@ public class WebDriverInstance {
 	public WebDriver browserSetup(WebDriver driver) {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/driver/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.calculator.net/loan-calculator.html");
+		driver.get("http://newtours.demoaut.com/");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;
