@@ -43,7 +43,6 @@ public class MecuryWebtour extends BaseTest {
 	
 	     bf.bookFight(excel);
 	     captureScreenshot(logger,driver,"bookFights");
-	     captureScreenshot(logger,driver,"bookFights");
 	  driver.quit();
   }
 }
