@@ -39,11 +39,11 @@ public class BaseTest {
 	}
 
 	
-	@BeforeMethod
+	/*@BeforeMethod
 	public void beforeMethod(Method method){
 		
 	}
-	
+	*/
 	@AfterMethod
 	public void afterMethod(){
 		extent.flush();
@@ -52,10 +52,8 @@ public class BaseTest {
 	
 
 	public void captureScreenshot(ExtentTest logger,WebDriver driver,String name) throws IOException{
-		//Shutterbug.shootPage(driver).withName(name).save("Z:\\workspace\\Demo\\reports");
-		Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS, 100, true).withName(name).save("Z:\\workspace\\Demo\\reports");
-		//snapshot.save("C:/AutomationProjects/screens/");
-	    logger.addScreenCaptureFromPath("Z:\\workspace\\Demo\\reports\\"+name+".png");
+		Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS, 100, true).withName(name).save("./reports");
+	    logger.addScreenCaptureFromPath("./reports/"+name+".png");
 	
 	}
 	

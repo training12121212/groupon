@@ -29,7 +29,7 @@ public class LoanCalculator extends BaseTest {
 		calculatePage = new CalculatorPage(driver);
 		logger = extent.createTest("TC001");
 		calculatePage.enterAmount("99");
-		captureScreenshot(logger,driver,"LoanAmount");
+		//captureScreenshot(logger,driver,"LoanAmount");
 		captureScreenshot(logger,driver,"LoanAmount1");
 		logger.info("End");
 	}
