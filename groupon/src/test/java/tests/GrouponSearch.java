@@ -27,6 +27,7 @@ public class GrouponSearch extends BaseTest{
 	  homePage.searchItem("cricket bats");
 	   captureScreenshot(logger,driver,"GrouponHomePage");
 		//logger.info("Entered value : shoe");
+	   //Sample
 	  driver.quit();
 	  
   }
